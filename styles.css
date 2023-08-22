@@ -1,0 +1,108 @@
+/* Universal selector properties */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: #3C4042;
+  border: 1px solid #1F1F1F;
+
+  /* Using flexbox properties in <body> tag */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-card
+{
+  background-color: #1F1F1F;
+  color: #E2E2E2;
+  height: 420px;
+  width: 550px;
+  border: 1px solid #606368;
+  border-radius: 20px;
+
+  /* Using flexbox properties in <div class="main-card"> tag */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr
+{
+  width: 80%;
+  height: 2px;
+  background-color: #E2E2E2;
+  border: none;
+  border-radius: 5px;
+}
+
+label
+{
+  font-size: 20px;
+}
+
+.className, .classPhoneNumber, .classEmail
+{
+  /* Using flexbox properties in multiple <div> tags */
+  display: flex;
+  flex-direction: column;
+}
+
+#name, #phoneNumber, #userEmail
+{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+
+/* Adding pseudo class "focus" for special effects on input taking elements */
+#name:focus, #phoneNumber:focus, #userEmail:focus
+{
+  border: 5px solid #BB86FC;
+}
+
+span
+{
+  font-size: 18px;
+}
+
+#male-gender, #female-gender, #other-gender
+{
+  accent-color: #BB86FC;
+}
+
+button
+{
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  color: #1F1F1F;
+  background-color: #E2E2E2;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+
+/* Adding pseudo class "hover" for special effects on button */
+button:hover
+{
+  width: 71px;
+  height: 31px;
+}
+
+/* Adding pseudo class "focus" for special effects on button */
+button:active
+{
+  color: #E2E2E2;
+  background-color: #1F1F1F;
+  border: 1px solid #E2E2E2;
+}

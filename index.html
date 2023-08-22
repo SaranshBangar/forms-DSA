@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Adding a favicon -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <!-- Linking CSS File to HTML File -->
+  <link rel="stylesheet" href="styles.css"> 
+
+  <!-- Adding the title to the webpage -->
+  <title>DSA Tech Frontend Task</title>
+</head>
+
+<body>
+
+  <!-- Created main div -->
+  <div class="main-card">
+
+    <!-- Created seperate div for heading -->
+    <div class="heading-class">
+      <h1>DSA Form</h1>
+    </div>
+
+    <br> <hr> <br>
+
+    <!-- Created div to hold all the form elements -->
+    <div class="form">
+
+        <!-- Div to input user name -->
+        <div class="className">
+          <label for="name">Enter your name : </label>
+          <input type="text" id="name" placeholder=" Eg. - Rohan Gupta">
+          <br>
+        </div>       
+
+        <!-- Div to input user number -->
+        <div class="classPhoneNumber">
+          <label for="phoneNumber">Enter your mobile number : </label>
+          <input type="number" name="phoneNumber" id="phoneNumber" placeholder=" Eg. - +91 9876543210">
+          <br>
+        </div>
+
+        <!-- Div to input user email -->
+        <div class="classEmail">
+          <label for="userEmail">Enter your email : </label>
+          <input type="email" name="userEmail" id="userEmail" placeholder=" Eg. - abc@gmail.com">
+          <br>
+        </div>
+
+        <!-- Div to input user gender -->
+        <div class="classGender">
+          <label for="gender">Select your gender : </label>
+          <span>Male </span><input type="radio" name="gender" id="male-gender">
+          <span>Female </span><input type="radio" name="gender" id="female-gender">
+          <span>Others </span><input type="radio" name="gender" id="other-gender">
+          <br><br>
+        </div>
+
+    </div>
+
+    <button>Submit</button>
+
+  </div>
+
+</body>
+</html>
