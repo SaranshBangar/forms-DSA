@@ -1,7 +1,7 @@
 # DSA Forms Project
 
 ## Introduction
-This repository contains a simple HTML and CSS project for creating a user data collection form, developed by Saransh Bangar. The project was created for the Directorate of Student Affairs (DSA) at SRM Institute of Science and Technology (SRMIST). The form allows users to input their name, mobile number, email, and gender. The collected data can be used by DSA for various purposes.
+This repository contains a HTML, CSS and JavaScript project for creating a user data collection form, developed by Saransh Bangar. The project was created for the Directorate of Student Affairs (DSA) at SRM Institute of Science and Technology (SRMIST). The form allows users to input their name, mobile number, email, and gender. The collected data can be used by DSA for various purposes.
 
 ## Project Details
 Name: Saransh Bangar
@@ -12,6 +12,7 @@ Made for: Directorate of Student Affairs (DSA)
 
 ## Features
 Input fields for collecting user data: name, mobile number, email, and gender.
+Saves the user data in local storage
 Basic styling for improved user interface using CSS.
 
 ## Customization
